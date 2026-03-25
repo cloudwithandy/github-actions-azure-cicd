@@ -56,7 +56,7 @@ Initial pipeline execution failed due to configuration issues.
 ![Step 7](screenshots/07-github-actions-failure.png)
 
 Step 8 - Debuuging the issue 
-Logs reviewedto identify JSON parsing error in package.json
+Logs reviewed to identify JSON parsing error in package.json
 
 ![Step 8](screenshots/08-package-json-added.png)
 
