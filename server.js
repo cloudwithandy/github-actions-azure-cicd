@@ -1,24 +1,12 @@
-const http = require("http");
-const fs = require("fs");
-const path = require("path");
+const http = require('http');
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
-const filePath = path.join(__dirname, "index.html");
-
-fs.readFile(filePath, (err, content) => {
-if (err) {
-res.writeHead(500, { "Content-Type": "text/plain" });
-res.end("Server error");
-return;
-}
-
-res.writeHead(200, { "Content-Type": "text/html" });
-res.end(content);
-});
+  res.writeHead(200, { 'Content-Type': 'text/html' });
+  res.end('<h1>🚀 Andy CI/CD App is LIVE</h1>');
 });
 
 server.listen(port, () => {
-console.log(`Server running on port ${port}`);
+  console.log(`Server running on port ${port}`);
 });
