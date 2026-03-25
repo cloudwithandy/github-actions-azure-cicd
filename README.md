@@ -31,7 +31,7 @@ Local development environment with core files (server.js, package.json, workflow
 ![Step 2](screenshots/02-repo-with-files.png)
 
 Step 3 - Initial commit 
-Project pushed to Github to trigger pipeline
+Project web app deployment on Azure created 
 
 ![Step 3](screenshots/03-deployment-success.png)
 
